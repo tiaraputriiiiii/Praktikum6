@@ -1,4 +1,9 @@
+## Nama        : Tiara Putri
+## NIM         : 312210064
+## Kelas       : TI.22.A1
+
 ## Latihan
+
 Ubahlah kode di bawah ini menjadi fungsi menggunakan lambda
    
      import math
