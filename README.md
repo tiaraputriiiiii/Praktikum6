@@ -17,17 +17,27 @@ Ubahlah kode di bawah ini menjadi fungsi menggunakan lambda
 
 ## Rumus
 
-    import math
+         import math
+         def a(x):
+             return x**2
+             a = lambda x : x ** 2
+         print(3)
 
-    def a(x):
-        return x**2
-    def b(x, y):
-        return math.sqrt(x**2 + y**2)
-    def c(*args):
-        return sum(args)/len(args)
-    def D(s):
-        return "".join(set(s))
-        
+         def b(x,y):
+             return math.sqrt(x*2 + y*2)
+             b = lambda x,y : x * 2 + y * 2
+         print(2 , 1)
+
+         def c(*args):
+             return sum(args)/len(args)
+             c = lambda *args : sun(args)/len(args)
+         print(5, 6, 7, 8)
+
+         def d(s):
+             return "".join(set(s))
+         d = lambda s: "".join(set(s))
+         print( " TIARA PUTRI " )
+         
 ## Hasul Run
 
 ![2022-12-06 (8)](https://user-images.githubusercontent.com/115775237/205926962-3ec0dc18-1f81-4262-901c-50d33a09223a.png)
@@ -41,7 +51,7 @@ Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menamp
 - Fungsi hapus(nama) untuk menghapus data berdasarkan nama.
 - Fungsi ubah(nama) untuk mengubah data berdasarkan nama.
 - Buat Flowchart dan Penjelasan Programnya pada README.md.
--  Commit dan push repository ke github.
+- Commit dan push repository ke github.
 
          from os import system
          s_nama = []
